@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Sidebar In React
+
+Sourced from tutorial: https://www.youtube.com/watch?v=CXa0f4-dWi4&ab_channel=BrianDesign
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
