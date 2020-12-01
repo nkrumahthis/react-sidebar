@@ -1,11 +1,18 @@
 import React from 'react';
+import { Switch, BrowserRouter, Route } from 'react-router-dom';
 import './App.css';
+import Sidebar from './components/sidebar/Sidebar';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Ayo</h1>
-    </div>
+    <>
+      <BrowserRouter>
+        <Sidebar/>
+        <Switch>
+          <Route exact path='/'/>
+        </Switch>
+      </BrowserRouter>
+    </>
   );
 }
 
