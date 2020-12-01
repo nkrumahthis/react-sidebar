@@ -25,7 +25,7 @@ function Sidebar() {
             <nav className={showSidebar ? 'nav-menu active' : 'nav-menu'}>
                 <ul className="nav-menu-items" onClick={toggleSidebar}>
                     <li className="navbar-toggle">
-                        <Link className="menu-bars" to ="#">
+                        <Link to ="#" className="menu-bars">
                             <AiIcons.AiOutlineClose/>
                         </Link>
                     </li>
@@ -37,7 +37,7 @@ function Sidebar() {
                                     <span>{item.title}</span>
                                 </Link>
                             </li>
-                        )
+                        );
                     })}
                 </ul>
             </nav>
