@@ -23,8 +23,8 @@ function Sidebar() {
                 </Link>
             </div>
             <nav className={showSidebar ? 'nav-menu active' : 'nav-menu'}>
-                <ul className="nav-menu-items" onClick={toggleSidebar}>
-                    <li className="navbar-toggle">
+                <ul className="nav-menu-items">
+                    <li className="navbar-toggle"  onClick={toggleSidebar}>
                         <Link to ="#" className="menu-bars">
                             <AiIcons.AiOutlineClose/>
                         </Link>
